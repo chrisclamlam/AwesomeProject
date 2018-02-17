@@ -54,11 +54,11 @@ const styles = StyleSheet.create({
 
 class MainScreen extends React.Component {
   
-  static navigationOptions = {
-    headerLeft : <Icon name="ios-camera-outline" style = {{paddingLeft: 10}} />,
-    title: <Text style={{color:'red', fontWeight:0.56}}> BuzzFeed </Text>,
-    headerRight: <Icon name="md-map" style = {{paddingRight: 10, transform:[{scaleX: 0.7},{scaleY:0.7}], color:'black'}} 
-      onPress={() => this.props.navigate('ProfileTab')}/>}
+  // static navigationOptions = {
+  //   headerLeft : <Icon name="ios-camera-outline" style = {{paddingLeft: 10}} />,
+  //   title: <Text style={{color:'red', fontWeight:'700'}}> BuzzFeed </Text>,
+  //   headerRight: <Icon name="md-map" style = {{paddingRight: 10, transform:[{scaleX: 0.7},{scaleY:0.7}], color:'black'}} 
+  //     onPress={() => this.props.navigate('ProfileTab')}/>}
   
   render() {
 

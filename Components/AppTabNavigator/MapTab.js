@@ -1,22 +1,22 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import {StackNavigator} from 'react-navigation'
-import StackScreen from './Components/StackScreen'
 
-export default class App extends React.Component {
+export default class MapTab extends React.Component {
   render() {
     return (
-      <StackScreen/>
+      <View style={styles.container}> 
+        <Text> THIS IS MAP TAB </Text>
+      </View>
     ); 
   }
 }
-
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });

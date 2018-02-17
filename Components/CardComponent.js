@@ -9,7 +9,10 @@ export default class CardComponent extends React.Component {
         const images={
             "1": require('../images/icecream.jpeg'),
             "2": require('../images/cheapeats.png'),
-            "3": require('../images/musteat.png')
+            "3": require('../images/musteat.png'),
+            "4": require('../images/junkfood.png'),
+            "5": require('../images/coffee.png'),
+            "6": require('../images/vegan.png')
 
         }
     return (
